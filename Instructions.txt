@@ -1,0 +1,47 @@
+Task Management Application - Instructions
+---------------------Frontend Setup---------------------
+
+1. Extract the frontend folder.  
+2. Open Visual Studio Code and load the frontend folder. (open the perfect path)  
+3. Open terminal and run:
+   - npm install -g @angular/cli
+   - npm install
+   - npm install primeng primeicons primeflex
+4. Run the app:
+   - ng serve -o
+5. Open browser at: http://localhost:4200  
+6. To run tests:
+   - ng test
+7. Login credentials for Admin:   (fixed)
+   - Role: Admin  
+   - Email: mounika@gmail.com  
+   - Password: Hitachi@007
+
+---------------------Backend Setup---------------------
+
+1. Open IntelliJ and load the backend files.  
+2. Open pgAdmin and create a database named "taskmanagementdb".  
+3. Run the backend application:  
+   - Navigate to BackendApplication.java (src/main/java/com/backend)  
+   - Run the application.  
+4. Backend URL: http://localhost:8080  
+5. To run backend tests:  
+   - Navigate to test/java/com/backend  
+   - Run tests with coverage.
+
+---------------------Prerequisites---------------------
+
+- Node.js and npm installed  
+- Visual Studio Code for frontend  
+- IntelliJ IDEA for backend  
+- PostgreSQL and pgAdmin for database
+
+---------------------Configurations---------------------
+
+- Angular CLI: 17.3.5  
+- Node: 20.12.2  
+- npm: 10.2.4  
+- Spring Boot: 2.4.5  
+- Java: 17  
+- Swagger: 2
+
